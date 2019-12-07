@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>Нажми</title>
+            <link href="mod.css" rel="stylesheet" type="text/css"/>
+        </head>
+    
+<body>
+    <div>
+        <button id="mod" class="bot">Нажми на меня</button></div>
+    <div class="modal" id="div1">
+        <div class="inside">
+            <h2 class="pop">Select a Photo</h2>
+            <hr class="line"/>
+        <div class="mi">   
+        <img src="1.jfif" class="img pop">
+        <div>
+            <div class="der">
+            <h2 >Default Profile Image</h2>
+            </div>
+            <div class="der">We've found the following gravatar image associated with your e-mail address.</div><br>
+            <div class="der">
+                Is it okay to use this photo?
+            </div> 
+        </div>
+        </div> 
+        </div>
+    </div>
+    <script>
+        let a = document.getElementById('mod');
+        a.onclick = function(){
+           document.getElementById('div1').style.display='flex';    
+        }
+        let b = document.getElementById('div1');
+        b.onclick = function(e){
+            if(e.target.id=='div1'){
+                document.getElementById('div1').style.display='none';  
+            }
+        }
+    </script>
+</body>
+  
+</html>

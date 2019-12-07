@@ -1,0 +1,57 @@
+.bot{
+    font-size: 20px;
+    color:blueviolet;
+    background-color: blanchedalmond;
+    border-color: darkblue;
+    border-radius: 3px;
+    margin: 30px;
+}
+.bot:hover{
+   padding: 5px; 
+}
+body{
+    background-color:cornflowerblue; 
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 650px;
+    height: auto;
+    background-color:white;
+    padding-right: 2px;
+
+}
+.img{
+    font-size: 150px;
+    height: 300px;
+}
+.modal{
+    display:none;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.67);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.der{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+.mi{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    border: 1px solid gray;
+    width:100%;
+}
+.pop{
+       margin: 20px; 
+}
